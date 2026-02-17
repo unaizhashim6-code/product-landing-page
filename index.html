@@ -4,36 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Brand Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    <header>
-        <h1>Welcome to Shoe Haven</h1>
-        <p>Your destination for the latest in shoe fashion!</p>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to Our Shoe Brand</h1>
+        <p>Find your perfect pair of shoes today!</p>
+        <a href="#products" class="btn">Shop Now</a>
     </header>
-    <main>
-        <section class="featured-products">
-            <h2>Featured Products</h2>
+
+    <!-- Products Grid -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
             <div class="product">
                 <img src="shoe1.jpg" alt="Shoe 1">
-                <h3>Sporty Sneakers</h3>
-                <p>Price: $49.99</p>
-                <button>Add to Cart</button>
+                <h3>Shoe Model 1</h3>
+                <p>$99.99</p>
             </div>
             <div class="product">
                 <img src="shoe2.jpg" alt="Shoe 2">
-                <h3>Classic Loafers</h3>
-                <p>Price: $79.99</p>
-                <button>Add to Cart</button>
+                <h3>Shoe Model 2</h3>
+                <p>$89.99</p>
             </div>
-        </section>
-        <section class="about">
-            <h2>About Us</h2>
-            <p>Shoe Haven offers a variety of unique and stylish footwear for every occasion. Find your perfect pair today!</p>
-        </section>
-    </main>
+            <div class="product">
+                <img src="shoe3.jpg" alt="Shoe 3">
+                <h3>Shoe Model 3</h3>
+                <p>$79.99</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            <p>"These shoes changed my life!" - Happy Customer</p>
+        </blockquote>
+        <blockquote>
+            <p>"Absolutely love the comfort and style!" - Satisfied Client</p>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Shoe Haven. All rights reserved.</p>
+        <p>&copy; 2026 Shoe Brand. All rights reserved.</p>
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
     </footer>
+
 </body>
 </html>
