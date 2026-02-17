@@ -1,79 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Product Landing Page</title>
+  <meta charset="UTF-8">
+  <title>AEROSTEP | Premium Footwear</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#newsletter">Newsletter</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h1>Welcome to Our Product Landing Page</h1>
-        <p>Your one-stop solution for amazing products.</p>
-        <a href="#products" class="cta">Shop Now</a>
-    </section>
+  <!-- NAVBAR -->
+  <header>
+    <h1 class="logo">AEROSTEP</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="products">
-        <h2>Our Products</h2>
-        <div class="products-grid">
-            <!-- Each product can be structured like this -->
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>Description of Product 1.</p>
-                <p>Price: $XX.XX</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product">
-                <img src="product2.jpg" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>Description of Product 2.</p>
-                <p>Price: $XX.XX</p>
-                <button>Add to Cart</button>
-            </div>
-            <!-- Add more products as needed -->
-        </div>
-    </section>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h2>Built for Speed. Designed for Power.</h2>
+    <p>Step into the future of performance footwear.</p>
+    <button>Shop Now</button>
+  </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Information about the company and its mission.</p>
-    </section>
+  <!-- PRODUCTS -->
+  <section id="products" class="products">
+    <h2>Featured Collection</h2>
 
-    <section id="testimonials">
-        <h2>What Our Customers Say</h2>
-        <blockquote>
-            <p>Amazing products and excellent customer service!</p>
-            <footer>- Happy Customer</footer>
-        </blockquote>
-        <blockquote>
-            <p>I love my new purchase! Highly recommend.</p>
-            <footer>- Satisfied Customer</footer>
-        </blockquote>
-    </section>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Shoe">
+        <h3>Velocity X</h3>
+        <p>$129</p>
+      </div>
 
-    <section id="newsletter">
-        <h2>Subscribe to Our Newsletter</h2>
-        <form>
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606813909358-9dc14b8b8f8c" alt="Shoe">
+        <h3>Storm Runner</h3>
+        <p>$149</p>
+      </div>
 
-    <footer>
-        <p>&copy; 2026 Product Landing Page. All rights reserved.</p>
-    </footer>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba3" alt="Shoe">
+        <h3>Phantom Pro</h3>
+        <p>$179</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About AEROSTEP</h2>
+    <p>
+      AEROSTEP is a fictional premium footwear brand built for creators,
+      athletes, and modern explorers. We combine technology, style, and
+      performance into every step.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Stay Connected</h2>
+    <p>Email: contact@aerostep.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 AEROSTEP. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
